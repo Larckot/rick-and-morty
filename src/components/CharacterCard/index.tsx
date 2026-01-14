@@ -44,8 +44,7 @@ export default function CharacterCard({ character, onClick, isSelected, isDisabl
           src={image} 
           alt={name}
           className={styles.image}
-          width={100}
-          height={100}
+          fill
         />
       </div>
       

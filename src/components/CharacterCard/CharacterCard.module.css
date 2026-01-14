@@ -91,7 +91,7 @@
 }
 
 .image {
-  object-fit: cover;
+  object-fit: fill;
 }
 
 @media (max-width: 600px) {

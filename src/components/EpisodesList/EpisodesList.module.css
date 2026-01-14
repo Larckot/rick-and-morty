@@ -1,0 +1,22 @@
+.episodesList {
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .episodes {
+        height: 100%;
+        overflow-y: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        p {
+            margin-bottom: 4px;
+        }
+    }
+    .episodes::-webkit-scrollbar {
+        display: none;
+      }
+    .noEpisodes {
+        color: red;
+        text-align: center;
+    }
+}
